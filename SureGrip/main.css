@@ -76,7 +76,11 @@ html, body{
     font-family: Arial, Helvetica,sans-serif;
 }
 
-
+.carry {
+    width: 100px;
+    margin: auto;
+    height: 100px;
+}
 
 
 
