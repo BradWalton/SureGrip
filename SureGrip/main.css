@@ -111,6 +111,7 @@ html, body{
 .products > section > h1 {
     text-align: center;
     font-family: Arial, Helvetica,sans-serif;
+    color: #0059b3;
 }
 
 .products > section > p {
@@ -124,13 +125,26 @@ html, body{
     margin: auto;
 }
 
-.social{
+.social > section {
+    display: inline-block;
+    margin: auto;
+    width: 28%;
+}
+
+.social > section > p {
+    display: block;
+    margin: auto;
+    padding: 10px 0 20px 10px;
+}
+
+.social > section > img {
+    height: 35px;
     display: block;
     margin: auto;
 }
 
-.social > section > img {
-    height: 75px;
+.buttons {
+    width: 1100px;
     margin: auto;
 }
 
