@@ -140,15 +140,17 @@ html, body{
     display: block;
     margin: auto;
     padding: 10px 0 20px 10px;
+    text-align: center;
 }
 
-.social > section > ul > li {
+.social > section {
     display: inline-block;
+    text-align: center;
     text-decoration: none;
     width: auto;
 }
 
-.social > section > ul > li > img {
+.social > section > a > img {
     height: 35px;
     display: inline-block;
     margin: auto;
