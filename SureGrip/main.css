@@ -142,7 +142,13 @@ html, body{
     padding: 10px 0 20px 10px;
 }
 
-.social > section > img {
+.social > section > ul > li {
+    display: inline-block;
+    text-decoration: none;
+    width: auto;
+}
+
+.social > section > ul > li > img {
     height: 35px;
     display: inline-block;
     margin: auto;
@@ -171,7 +177,9 @@ html, body{
     color: white;
 }
 
-
+.footlogo {
+    margin: auto;
+}
 
 
 
