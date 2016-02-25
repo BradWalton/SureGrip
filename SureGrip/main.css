@@ -183,9 +183,17 @@ html, body{
     margin: auto;
 }
 
+/*The following are styles for the about page.*/
 
+.container > section {
+    display: inline-block;
+}
 
+#keith {
+    width: 20%;
+}
 
-
-
+#about {
+    width: 60%;
+}
 
