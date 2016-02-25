@@ -31,6 +31,9 @@
     </div>
     </br>
     <div class="formcontainer">
+
+        <h1>Email the Sure Grip Team</h1>
+
         <div class="emailform">
             <label for="firstname">First Name:</label>
             <input type="text"
@@ -38,6 +41,7 @@
                    ng-model="formModel.firstname"
                    id="firstname">
         </div>
+        </br>
         <div class="emailform">
             <label for="lastname">Last Name:</label>
             <input type="text"
@@ -45,6 +49,7 @@
                    ng-model="formModel.lastname"
                    id="lastname">
         </div>
+        </br>
         <div class="emailform">
             <label for="email">Your Email:</label>
             <input type="email"
@@ -52,12 +57,16 @@
                    ng-model="formModel.email"
                    id="email">
         </div>
+        </br>
         <div class="emailform">
             <label for="message">Message:</label>
-            <input type="text"
-                   class="formcontrol"
-                   ng-model="formModel.message"
-                   id="message">
+            <textarea type="text"
+                      class="formcontrol"
+                      ng-model="formModel.message"
+                      id="message"
+                      rows="5"
+                      cols="50">
+            </textarea>
         </div>
         </br>
         <div class="emailform">
