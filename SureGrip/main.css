@@ -192,14 +192,15 @@ html, body{
 
 .about > section {
     display: inline-block;
-    width: 28%;
     margin: auto;
-    border: 1px;
-    padding: 2%;
+    width: 45%;
     font-family: Arial, Helvetica,sans-serif;
     font-size: 13px;
 }
 
-.about > section > h1{
+.about > section > h1 {
     color: #0059b3;
 }
+
+
+
