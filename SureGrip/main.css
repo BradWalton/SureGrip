@@ -125,6 +125,7 @@ html, body{
     width: 1100px;
     margin: auto;
     text-align: center;
+    bottom: auto;
 }
 
 .social > section {
@@ -162,7 +163,7 @@ html, body{
     text-align: center;
 }
 
-.buttons > button {
+.buttons > a > button {
     display: inline-block;
     margin: auto;
     width: 23%;
@@ -174,7 +175,7 @@ html, body{
     box-shadow: 0 8px 16px 0 #555555;
 }
 
-.buttons > button:hover{
+.buttons > a > button:hover{
     background-color: #0059b3;
     color: white;
 }
