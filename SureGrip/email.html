@@ -30,11 +30,34 @@
         </div>
     </div>
 
-    <div class="emailform">
-        <form>
-
-        </form>
-    </div>
+        <div class="emailform">
+            <label for="firstname">First Name:</label>
+            <input type="text"
+                   class="formcontrol"
+                   ng-model="formModel.firstname"
+                   id="firstname">
+        </div>
+        <div class="emailform">
+            <label for="lastname">Last Name:</label>
+            <input type="text"
+                   class="formcontrol"
+                   ng-model="formModel.lastname"
+                   id="lastname">
+        </div>
+        <div class="emailform">
+            <label for="email">Your Email:</label>
+            <input type="email"
+                   class="formcontrol"
+                   ng-model="formModel.email"
+                   id="email">
+        </div>
+        <div class="emailform">
+            <label for="message">Message:</label>
+            <input type="text"
+                   class="formcontrol"
+                   ng-model="formModel.message"
+                   id="message">
+        </div>
 
     <div class="buttons">
         <a href="#"><button>Submit Warranty</button></a>
