@@ -259,6 +259,19 @@ About Styling
     color: #0059b3;
 }
 
+.about > section > h1,p {
+    margin: auto;
+    padding-top: 0;
+}
+
+.about > section > img {
+    display: block;
+    position: relative;
+    margin: auto;
+    width: 350px;
+    ;
+}
+
 /* ======================================================================
 Email Us Styling
 =======================================================================*/
