@@ -29,7 +29,45 @@
                 </ul>
             </div>
         </div>
+        <div class="formcontainer">
+
+            <h1>Sign In to Tech Lounge</h1>
+
+            <div class="emailform">
+                <label for="firstname">First Name:</label>
+                <input type="text"
+                       class="formcontrol"
+                       ng-model="formModel.firstname"
+                       id="firstname"
+                       placeholder="eg: John">
+            </div>
+            </br>
+            <div class="emailform">
+                <label for="lastname">Last Name:</label>
+                <input type="text"
+                       class="formcontrol"
+                       ng-model="formModel.lastname"
+                       id="lastname"
+                       placeholder="eg: Smith">
+            </div>
+            </br>
+            <div class="emailform">
+                <label for="email">Your Email:</label>
+                <input type="email"
+                       class="formcontrol"
+                       ng-model="formModel.email"
+                       id="email"
+                       placeholder="eg: example@email.com">
+            </div>
+            </br>
+            </br>
+            <div class="emailform">
+                <button>Send Email</button>
+            </div>
+            </br>
+        </div>
     </div>
+
     <div class="bottom">
         <div class="buttons">
             <a href="#"><button>Submit Warranty</button></a>
