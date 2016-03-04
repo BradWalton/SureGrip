@@ -246,10 +246,13 @@ About Styling
 .about{
     width: 1100px;
     margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .about > section {
-    display: inline-block;
+    display: block;
     margin: auto;
     width: 45%;
     font-size: 13px;
@@ -266,7 +269,6 @@ About Styling
 
 .about > section > img {
     display: block;
-    position: relative;
     margin: auto;
     width: 350px;
     ;
@@ -372,3 +374,4 @@ Tech Login Styling
     width:30%;
     margin-left: 20px;
 }
+
